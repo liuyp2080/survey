@@ -15,6 +15,11 @@ with st.form("问卷"):
     major=st.selectbox("Q4: 专业?", ["软件工程", "医学", "生物学", "其它"])
     app_type=st.selectbox("Q5: 希望使用web做什么?", ["预测模型", "深度学习模型", "统计工具","生信工具"])
     submitted = st.form_submit_button("Submit")
+    #提交成功提醒
+    if submitted:
+        st.success("提交成功，感谢参与❤️!")
+        #气球特效
+        st.balloons()
 
 
 # Connect to Deta Base with your Data Key
