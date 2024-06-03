@@ -19,7 +19,7 @@ st.write('''
 #首先建立一个问卷调查的界面
 survey = ss.StreamlitSurvey("Survey Example - Advanced Usage")
 #构建页面
-pages = survey.pages(3, on_submit=lambda: st.success("感谢参与调查，谢谢!祝早日康复!"))
+pages = survey.pages(4, on_submit=lambda: st.success("感谢参与调查，谢谢!祝早日康复!"))
 with pages:
     if pages.current == 0:#第一页，患者基本信息
         
