@@ -1,2 +1,4 @@
 deta
 plotly
+streamlit_survey
+json
