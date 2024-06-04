@@ -1,4 +1,4 @@
 deta
 plotly
 streamlit_survey
-
+streamlit_option_menu
