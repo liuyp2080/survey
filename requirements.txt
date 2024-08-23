@@ -1,4 +1,5 @@
 deta
 plotly
-streamlit_survey
-streamlit_option_menu
+streamlit_survey==0.1.0
+streamlit_option_menu==0.3.13
+streamlit==1.26.0
